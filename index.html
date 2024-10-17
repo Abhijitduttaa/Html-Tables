@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        h1{
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            padding: 10px;
+        }
+        table {
+            /* margin: 20px; */
+            border-collapse: collapse;
+            background-color: rgb(43, 40, 40);
+            color: rgb(222, 229, 232);
+            /* display: flex;
+            align-items: center;
+            justify-content: center;
+             */
+             border-radius: 20px;
+             border-color: azure;
+        }
+        tr,td,th {
+            padding: 100px;
+            /* cursor:pointer;
+            user-select: none; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating Table</h1>
+    <center>
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            
+        </tr>
+        <tr>
+            
+            <td rowspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            
+            <td>4</td>
+            
+        </tr>
+    </table>
+</center>
+<hr>
+<br>
+<center>
+    <h1>Second Table</h1>
+ <table border="2">
+    <tr>
+    <th colspan="2">1</th>
+    <!-- <th></th> -->
+    <th colspan="2">3</th>
+    <!-- <th>4</th> -->
+</tr>
+     <tr>
+        <td rowspan="2">3</td>
+        <td rowspan="2">4</td>
+        <td>5</td>
+        <td>6</td>
+     </tr>
+     <tr>
+        <td>7</td>
+        <td>8</td>
+        
+     </tr>
+ </table>
+</center>
+</body>
+</html>
